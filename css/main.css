@@ -1,0 +1,281 @@
+body{
+    /* font-family: "Alegreya Sans", sans-serif; */
+  
+    font-family: "Alegreya", serif;
+}
+.header {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.nav{
+    padding-top: 22px;
+}
+.nav .img{
+    width: 170px;
+}
+.links{
+    float: right; 
+}
+.links ul {
+    list-style: none;
+}
+.links ul li {
+    display: inline-block;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #ffffff;   
+    padding-left: 30px;
+    font-size: 18px;
+}
+.clear{
+    clear: both;
+}
+.content{
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    width: 65%;
+    padding-top: 170px;
+}
+.content span{
+    font-size: 22px;
+    letter-spacing: 1px;
+  
+}
+.content p{
+    font-size: 24px;
+    letter-spacing: 1px;
+
+}
+.content h1{
+    font-size: 72px;
+    letter-spacing: 2px;
+    margin-top: 21px ;
+    margin-bottom: 21px;
+    font-weight: 400;
+}
+.btn-learn,
+.btn-contact{
+    padding: 18px 22px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.btn-learn{
+    background-color: #8E7754;
+    border: 2px solid #8E7754;
+    
+
+}
+.btn-contact{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    margin-left: 5px;
+}
+.circle{
+    width: 30px ;
+    height: 50px;
+    border-radius: 43%;
+    border:3px solid #ffffff;
+    margin:  100px auto;
+}
+.Who-are,
+.OurBaking,
+.our-location,
+.contact
+{
+    padding:90px 0 ;
+}
+
+.img-who,
+.location-img{
+    width: 45%;
+    vertical-align: top;
+    display: inline-block;
+}
+.img-who img,
+.location-img img{
+    width: 100%;
+}
+.who-content{
+    width: 45%;
+    display: inline-block;
+    margin-left: 8%;
+    color:  rgb(104, 104, 104);
+    
+}
+.who-content h3,
+.location-content h3,
+.bakingText h3,
+.contact-info h3{
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400;
+}
+.who-content p,
+.who-content div p,
+.location-content p,
+.bakingText p,
+.contact-info p
+{
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.who-icon{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border:1px solid rgb(211, 200, 200);
+}
+.who-content div p,
+.contact-info div p{
+    padding-left: 10px;
+    display: inline-block;
+}
+.our-location,
+.contact{
+    background-color: #F8F8F8;
+}
+.location-content{
+    width: 45%;
+    display: inline-block;
+    color:  rgb(104, 104, 104);
+    margin-right: 18px;
+}
+.location-img{
+    margin-left: 8%;
+  
+}
+.bakingText{
+    text-align: center;
+    padding-bottom: 40px;
+ 
+}
+.bakingText h3{
+    margin: 0;
+    letter-spacing: 2px;
+}
+.bakingText p,
+.contact-info p{
+    color:  rgb(136, 136, 136);
+}
+.baking-content{
+    text-align: center;
+}
+.baking-content h3{
+    color:rgb(48, 48, 48);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.baking-content p{
+    padding: 0 ;
+    margin: 0;
+    color:  rgb(104, 104, 104);
+    line-height: 30px;
+    font-size: 17px;
+}
+.box{
+    width: 31.333%;
+    float: left;
+}
+.box img{
+    width: 100%;
+}
+.box2{
+    margin: 0 3% ;
+}
+.contact-info{
+    float: left;
+    width: 45%;
+}
+.img-contact{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: 
+    rgb(142, 119, 84);
+}
+.contact-img{
+    float: right;
+    width: 45%;
+}
+.contact-img img{
+    width: 100%;
+}
+.about{
+    padding: 60px 0;
+    background-color: #403D38;
+}
+.col{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+.col h5{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.col p{
+    color: #969696;
+    line-height: 30px;
+    font-size: 14px;
+}
+.col div p,
+.col div img{
+    margin:9px;
+}
+
+.details .detail{
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.details img{
+   width: 35px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.details p{
+    display: inline-block;
+    /* margin-left: 5px; */
+}
+.details{
+    border-bottom: 1px solid #45423D;
+  
+}
+.footer{
+    padding:60px 0;
+   
+    background-color: #353330;
+    color:hsl(0, 0%, 47%);
+    text-align: center;
+}
+.footer img{
+    width: 370px;
+}
+.footer div{
+    margin-top: 20px;
+}
+.footer div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #474540;
+    color:rgb(150, 150, 150) ;
+    margin-right: 4px;
+}
